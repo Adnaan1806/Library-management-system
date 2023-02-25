@@ -24,7 +24,9 @@ namespace Library_Management_System
 
         private void addNewBookToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           
+            Hide();
+            AddBooks a = new AddBooks();
+            a.Show();
         }
 
         private void returnBooksToolStripMenuItem_Click(object sender, EventArgs e)
