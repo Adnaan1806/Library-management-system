@@ -35,7 +35,11 @@ namespace Library_Management_System
 
         private void button3_Click(object sender, EventArgs e)
         {
-            this.Close();
+            if (MessageBox.Show("Do you want to exit ?", "Alert", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            {
+                this.Close();
+            }
+            
         }
 
         private void BTN_signup_Click(object sender, EventArgs e)

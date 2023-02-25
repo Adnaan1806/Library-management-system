@@ -26,5 +26,11 @@ namespace Library_Management_System
         {
            
         }
+
+        private void addStudentToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AddMember Am = new AddMember();
+            Am.Show();
+        }
     }
 }
