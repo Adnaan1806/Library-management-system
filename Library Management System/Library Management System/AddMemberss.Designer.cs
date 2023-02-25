@@ -114,6 +114,7 @@ namespace Library_Management_System
             this.txt_refreshh.TabIndex = 8;
             this.txt_refreshh.Text = "Refresh";
             this.txt_refreshh.UseVisualStyleBackColor = true;
+            this.txt_refreshh.Click += new System.EventHandler(this.txt_refreshh_Click);
             // 
             // txt_saveM
             // 
@@ -123,6 +124,7 @@ namespace Library_Management_System
             this.txt_saveM.TabIndex = 9;
             this.txt_saveM.Text = "Save Details";
             this.txt_saveM.UseVisualStyleBackColor = true;
+            this.txt_saveM.Click += new System.EventHandler(this.txt_saveM_Click);
             // 
             // txt_exitm
             // 
@@ -132,6 +134,7 @@ namespace Library_Management_System
             this.txt_exitm.TabIndex = 10;
             this.txt_exitm.Text = "Exit";
             this.txt_exitm.UseVisualStyleBackColor = true;
+            this.txt_exitm.Click += new System.EventHandler(this.txt_exitm_Click);
             // 
             // AddMemberss
             // 
