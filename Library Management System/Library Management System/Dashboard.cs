@@ -34,5 +34,11 @@ namespace Library_Management_System
             ReturnBooks rB = new ReturnBooks();
             rB.Show();
         }
+
+        private void viewStudentDetailsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ViewStudentInfo vs = new ViewStudentInfo();
+            vs.Show();
+        }
     }
 }
