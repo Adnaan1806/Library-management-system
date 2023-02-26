@@ -44,6 +44,7 @@
             this.btn_cancel = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.txt_id = new System.Windows.Forms.TextBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label1
@@ -179,11 +180,24 @@
             this.txt_id.Size = new System.Drawing.Size(200, 22);
             this.txt_id.TabIndex = 15;
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Light Mode",
+            "Dark Mode"});
+            this.comboBox1.Location = new System.Drawing.Point(114, 374);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 24);
+            this.comboBox1.TabIndex = 16;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
             // AddBooks
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.txt_id);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.btn_cancel);
@@ -226,5 +240,6 @@
         private System.Windows.Forms.Button btn_cancel;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txt_id;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

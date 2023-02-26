@@ -87,6 +87,24 @@ namespace Library_Management_System
                 this.Close();
             }
         }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if(comboBox1.SelectedIndex==0)
+            {
+                this.BackColor = Color.White;  
+                this.ForeColor = Color.Black;
+                
+            }
+            else if(comboBox1.SelectedIndex==1)
+            {
+                this.BackColor= Color.Black;
+                this.ForeColor = Color.White;  
+                btn_save.BackColor= Color.Gray;   
+                btn_cancel.BackColor= Color.Gray;
+
+            }
+        }
     }
     }
 

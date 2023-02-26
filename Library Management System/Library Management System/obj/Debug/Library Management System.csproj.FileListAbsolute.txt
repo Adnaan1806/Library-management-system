@@ -42,3 +42,5 @@ C:\Users\Akshvinth John\Source\Repos\Library-management-system\Library Managemen
 C:\Users\trign\Source\Repos\Library-management-system\Library Management System\Library Management System\obj\Debug\Library_Management_System.AddBooks.resources
 C:\Users\trign\Source\Repos\Library-management-system\Library Management System\Library Management System\obj\Debug\Library_Management_System.AddMemberss.resources
 C:\Users\trign\Source\Repos\Library-management-system\Library Management System\Library Management System\obj\Debug\Library_Management_System.ViewStudentInfo.resources
+C:\Users\Akshvinth John\Source\Repos\Library-management-system\Library Management System\Library Management System\obj\Debug\Library_Management_System.AddMemberss.resources
+C:\Users\Akshvinth John\Source\Repos\Library-management-system\Library Management System\Library Management System\obj\Debug\Library_Management_System.ViewStudentInfo.resources
